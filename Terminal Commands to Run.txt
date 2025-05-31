@@ -1,0 +1,34 @@
+Terminal Commands to Run:
+
+
+*****For Server:*****
+
+usage: server.py [-h] [--version] [--port PORT]
+
+A chatroom application server in which files and text can be sent. Please enter your --port (server port #)
+
+options:
+  -h, --help   show this help message and exit
+  --version    Gives you your current version of the server application
+  --port PORT  Give the port # of this server to receive your clients
+
+*****Sever Run Example:***** 
+python3 server.py --port 8675
+
+
+*****For Client:*****
+
+usage: client.py [-h] [--version] [--target TARGET] [--port PORT] --username USERNAME
+
+A chatroom application client that sends files and text across a network through the application's user interface (You can have as many clients as you desire). Please enter your --target (ip address) --port (port # of the server) --username (your chatroom name)
+
+options:
+  -h, --help           show this help message and exit
+  --version            Gives you your current version of the client application
+  --target TARGET      Give your ip address
+  --port PORT          Give the port # of the server to connect to
+  --username USERNAME  Give a unique username you would like to be called by in the chatroom. Note: This is required.
+
+
+*****Client Run Example*****
+ python3 client.py --target 192.168.1.229 --port 8675 --username Max
