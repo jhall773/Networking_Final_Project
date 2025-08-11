@@ -7,6 +7,6 @@ Final project for computer networking course: A Chatroom Client-Server applicati
 # For Example: 
 The server may be ran with an optional port number argument (though the port number will be assumed as port 8675) on the command line and a run of the file may be written as follows: "python3 server.py --port 8675"
 
-The client may be ran with a target IP address argument (the default is localhost), may or may not be ran with port # argument, and must be ran with a username argument on the command line and a run of the file may be written as follows: "python3 client.py --target 192.168.1.229 --port 8675 --username Max"
+The client may be ran with a target IP address argument (the default is localhost), may be ran with port # argument, and must be ran with a username argument on the command line and a run of the file may be written as follows: "python3 client.py --target 192.168.1.229 --port 8675 --username Max"
 
 
